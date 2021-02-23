@@ -31,7 +31,7 @@ class Tweet(DB.Model):
 
 
 def insert_example_users():
-     """Will get error ran twice, data to play with"""
+    """Will get error ran twice, data to play with"""
     nick = User(id=1, name="nick")
     elonmusk = User(id=2, name="elon musk")
     DB.session.add(nick)
