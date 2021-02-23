@@ -11,6 +11,9 @@ sqlalchemy = "*"
 pep8 = "*"
 flake8 = "*"
 pylint = "*"
+tweepy = "*"
+spacy = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
